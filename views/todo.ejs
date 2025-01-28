@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel = "stylesheet" type = "text/css" href = "/stylesheets/todo.css">
+</head> 
+<body>
+    <form action = "/logout">
+        <button id = "logout">Logout</button>
+        </form>
+    <h1>Hello <%= user.data.username %>👋</h1>
+    <div class="container">
+        <input id = "task" type = "text" placeholder="Enter the Task" name = "task" required>
+        <button id = "add">Add</button><br>
+    </div>
+    <div id = "container2">
+        <div id = "box"></div>
+    </div>
+    <script src = "/javascripts/todo.js"></script>
+</body>
+</html>

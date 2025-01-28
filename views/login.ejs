@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Login Page</title>
+    <link rel="stylesheet" href="/stylesheets/login.css">
+</head>
+<body>
+    <form action = "/login" method = "post">
+    <div class="container">
+        <div class="form-container">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="input-group">
+                    <input type="email" id="email" required minlength="13" maxlength="16" name = "email">
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" required minlength="5" maxlength="15" name = "password">
+                    <label for="password">Password</label>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html , body{
+  width:90%;
+  height:90%;
+  background-color: rgb(32, 32, 32);
+  color:white;
+}
+h1{
+  margin-top: 5vh;
+  margin-left: 4vw;
+}
+#logout{
+  width:5vw;
+  height:5vh;
+  background-color: rgb(255, 42, 42);
+  font-weight: bold;
+  color:white;
+  border-radius: 10px;
+  border:transparent;
+  margin-left: 90vw;
+  margin-top: 5vh;
+  transition:0.1s;
+  box-shadow: 0px 0px 20px rgb(255, 42,42);
+}
+#logout:hover{
+  transition:0.1s;
+  background-color: rgb(253, 53, 53);
+  box-shadow: 0px 0px 50px rgb(253, 53, 53);
+  cursor: pointer;
+}
+.container{
+  margin-top: 5vh;
+  margin-left: 2vw;
+  display: flex;
+  align-items: center;
+  gap:25px;
+}
+#task{
+  border-radius: 10px;
+  height:6vh;
+  width:25vw;
+  font-size:18px;
+  box-shadow: 0px 0px 10px white;
+  border:transparent;
+  transition:0.1s;
+  padding:0px 20px;
+}
+#task:hover{
+  transition:0.1s;
+  box-shadow: 0px 0px 30px rgb(89, 147, 240);
+  cursor: pointer;
+}
+#add{
+  width:5vw;
+  height:5vh;
+  border-radius: 20px;
+  font-weight: bold;
+  border:transparent;
+  background-color: rgb(63, 123, 212);
+  color:white;
+  transition:0.1s;
+}
+#add:hover{
+  transition:0.1s;
+  border:2px solid white;
+  cursor: pointer;
+}
+#add:active{
+  transition:0.1s;
+  background-color: rgb(10, 80, 220);
+}
+#container2{
+  margin-top: 5vh;
+  width:60%;
+  height:50%;
+  background:transparent;
+  color:white;
+  font-weight: bold;
+  margin-left: 4vw;
+  font-size:25px;
+}
+#box{
+  width:30%;
+  height:10%;
+  font-weight: bold;
+}
